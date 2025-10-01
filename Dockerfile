@@ -3,6 +3,7 @@ FROM ghcr.io/laveracloudsolutions/php:8.3.13-apache-bookworm
 
 # Installation des dépendances
 RUN apt-get update -qq && \
+    apt-get upgrade -y && \
     apt-get install -qy \
     ca-certificates=* \
     curl=7.* \
