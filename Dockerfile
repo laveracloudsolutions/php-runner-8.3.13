@@ -11,8 +11,10 @@ RUN apt-get update -qq && \
     fontconfig=2.* \
     git=1:2.39.* \
     gnupg=2.* \
+    gnutls-bin=3.* \
     iputils-ping=3:* \
     libapache2-mod-security2=2.* \
+    libc6=2.* \
     libfreetype6-dev=2.* \
     libfreetype6=2.* \
     libgrpc++-dev=1.* \
@@ -22,6 +24,7 @@ RUN apt-get update -qq && \
     libpng-dev=1.6.* \
     libpng16-16=1.* \
     libpq-dev=15.* \
+    libsqlite3-0=3.* \
     libxml2-dev=2.* \
     libxrender1=1:0* \
     libzip-dev=1.* \
